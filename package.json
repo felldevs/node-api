@@ -1,0 +1,22 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "Simple rest api using sequelize",
+  "main": "index.js",
+  "author": "Fellipe Nogueira",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
